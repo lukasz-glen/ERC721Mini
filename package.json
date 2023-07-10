@@ -1,0 +1,35 @@
+{
+  "name": "@lukasz.glen/ERC721Mini",
+  "description": "Experimental ERC721 with minimal gas usage",
+  "version": "1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukasz-glen/ERC721Mini.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "nft"
+  ],
+  "author": "lukasz-glen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukasz-glen/ERC721Mini/issues"
+  },
+  "homepage": "https://github.com/lukasz-glen/ERC721Mini/README.md",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.3",
+    "@nomiclabs/hardhat-truffle5": "^2.0.5",
+    "@openzeppelin/contracts": "^4.8.0",
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "chai": "^4.2.0",
+    "eth-sig-util": "^3.0.0",
+    "ethereumjs-util": "^7.0.7",
+    "ethereumjs-wallet": "^1.0.1",
+    "hardhat": "^2.9.1",
+    "hardhat-gas-reporter": "^1.0.4",
+    "hardhat-ignore-warnings": "^0.2.0",
+    "rimraf": "^3.0.2",
+    "solidity-coverage": "^0.8.0"
+  }
+}
